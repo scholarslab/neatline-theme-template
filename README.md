@@ -26,7 +26,7 @@ Where `exhibit-slug` is the "URL Slug" of the exhibit you're theming. Then, you'
 
     `npm install -g bower`
 
-  1. Install the [Grunt CLI tool][]:
+  1. Install the [Grunt CLI tool][grunt-cli]:
 
     `npm install -g grunt-cli
 
