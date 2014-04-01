@@ -2,9 +2,9 @@
 
 This is a template for an exhibit-specific Neatline theme, extracted from the [Project Gemini over Baja California][gemini] project. The theme uses:
 
-  - NPM and Bower for package management;
-  - Grunt for compiling, concatenating, and compressing files;
-  - Stylus for styling, which can be swapped for CSS.
+  - **[npm][npm]** and **[Bower][bower]** for package management;
+  - **[Grunt][grunt]** for compiling, concatenating, and compressing files;
+  - **[Stylus][stylus]** for styling, which can be swapped for CSS.
 
 ## Installation
 
@@ -38,13 +38,19 @@ Where `exhibit-slug` is the "URL Slug" of the exhibit you're theming. Then, you'
 
     `bower install`
 
-  1. Run the `watch` task:
+## Development
 
-    `grunt watch`
+Once the packages are installed, kick things off by running the `watch` task:
+
+  `grunt watch`
 
 Leave the `watch` task running in the terminal, and open up a new tab. Now, when you save any of the `*.js` or `*.styl` files under the `assets/` directory, Grunt will automatically compile the two payload files that are loaded by Neatline: `style.css` and `script.js`.
 
-Happy theming!
+When you're ready to deploy the theme to production, run:
+
+  `grunt compile:min`
+
+Which compresses the CSS and Javascript payloads. Happy theming!
 
 [gemini]: http://dclure.org/logs/project-gemini-over-baja-california
 [npm]: https://www.npmjs.org
