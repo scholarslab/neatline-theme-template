@@ -1,0 +1,31 @@
+
+/* vim: set expandtab tabstop=2 shiftwidth=2 softtabstop=2 cc=80; */
+
+div.narrative
+
+  position absolute
+  overflow-y scroll
+  width $text-width
+  padding 0em 2em
+  z-index 1
+
+  blue-container()
+
+  header
+    margin-top 2em
+    font-size 12px
+
+  h1
+    font-family Oswald
+    font-size 3em
+    font-weight normal
+    line-height 1.2em
+    margin 0.4em 0
+
+  [data-neatline-slug]
+    background transparent
+    border-bottom 1px solid $link-color
+    cursor pointer
+
+    &.highlighted, &.selected
+      background rgba(255, 225, 70, 0.4)

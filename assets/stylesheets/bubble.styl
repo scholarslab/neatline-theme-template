@@ -1,0 +1,27 @@
+
+/* vim: set expandtab tabstop=2 shiftwidth=2 softtabstop=2 cc=80; */
+
+div.bubble.static
+
+  position fixed
+  right 20px
+  left auto
+  font-family Oswald
+  opacity 1
+
+  blue-container();
+
+  &.selected
+    opacity 1
+
+  a.close
+
+    text-shadow none
+    color $link-color
+    font-size 3em
+    font-weight 200
+    line-height 0
+    opacity 0.9
+
+    &:hover
+      opacity 1
