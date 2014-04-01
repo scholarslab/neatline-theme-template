@@ -44,7 +44,7 @@ Once the packages are installed, kick things off by running the `watch` task:
 
   `grunt watch`
 
-Leave the `watch` task running in the terminal, and open up a new tab. Now, when you save any of the `*.js` or `*.styl` files under the `assets/` directory, Grunt will automatically compile the two payload files that are loaded by Neatline: `style.css` and `script.js`.
+Now, when you save any of the `*.js` or `*.styl` files under the `assets/` directory, Grunt will automatically compile the two payload files that are loaded by Neatline: `style.css` and `script.js`.
 
 When you're ready to deploy the theme to production, run:
 
