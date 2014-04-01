@@ -28,7 +28,7 @@ Where `exhibit-slug` is the "URL Slug" of the exhibit you're theming. Then, you'
 
   1. Install the [Grunt CLI tool][grunt-cli]:
 
-    `npm install -g grunt-cli
+    `npm install -g grunt-cli`
 
   1. Install NPM packages:
 
