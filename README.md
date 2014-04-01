@@ -1,4 +1,4 @@
-# Neatline Starter Theme
+# [Neatline Starter Theme][post]
 
 This is a template for an exhibit-specific Neatline theme, extracted from the [Project Gemini over Baja California][gemini] project. The theme uses:
 
@@ -18,15 +18,15 @@ Where `exhibit-slug` is the "URL Slug" of the exhibit you're theming. Then, you'
 
     `ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"`
 
-  1. Install Node.js and NPM:
+  1. Install [Node.js][node] and [npm][npm]:
 
     `brew install node`
 
-  1. Install Bower:
+  1. Install [Bower][bower]:
 
     `npm install -g bower`
 
-  1. Install the Grunt CLI tool:
+  1. Install the [Grunt CLI tool][]:
 
     `npm install -g grunt-cli
 
@@ -52,10 +52,12 @@ When you're ready to deploy the theme to production, run:
 
 Which compresses the CSS and Javascript payloads. Happy theming!
 
+[post]: http://www.scholarslab.org/?p=9967
 [gemini]: http://dclure.org/logs/project-gemini-over-baja-california
 [npm]: https://www.npmjs.org
 [bower]: http://bower.io
 [grunt]: http://gruntjs.com
+[grunt-cli]: http://gruntjs.com/getting-started
 [stylus]: http://learnboost.github.io/stylus
 [node]: http://nodejs.org
 [brew]: http://brew.sh
