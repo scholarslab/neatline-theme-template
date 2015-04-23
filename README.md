@@ -16,7 +16,7 @@ Where `exhibit-slug` is the "URL Slug" of the exhibit you're theming. Then, you'
 
   1. Install [homebrew][brew]:
 
-    `ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"`
+    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
   1. Install [Node.js][node] and [npm][npm]:
 
